@@ -1,0 +1,31 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bg-color-main);
+    color: var(--color-light);
+    font-variation-settings: 'wght' 200;
+    cursor: pointer;
+    transition: background-color var(--tran-1);
+}
+
+.button:hover {
+    background-color: var(--bg-color-active);
+}
+
+.active {
+    background-color: var(--bg-color-active);
+}
+
+.danger {
+    background-color: var(--bg-color-main);
+    color: var(--color-danger);
+}
+
+.danger:hover {
+    background-color: var(--bg-color-danger);
+}
